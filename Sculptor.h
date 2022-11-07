@@ -13,9 +13,9 @@ public:
   Sculptor(int _nx, int _ny, int _nz); // Dimensões da figura
   ~Sculptor();
 
-  void setColor(float r, float g, float b, float a); // Define cor dos voxels
-  void putVoxel(int x, int y, int z); // Coloca um voxel em coordenadas xyz
-  void cutVoxel(int x, int y, int z); // Coloca um voxel em coordenadas xyz
+  void setColor(float r, float g, float b, float a); /**\fn Define cor dos voxels */
+  void putVoxel(int x, int y, int z); /** \fn Coloca um voxel em coordenadas xyz*/
+  void cutVoxel(int x, int y, int z); /** \fn Coloca um voxel em coordenadas xyz */
   void putBox(int x0, int x1, int y0, int y1, int z0,
               int z1); // Coloca uma caixa coordenadas iniciais e finais xyz
   void cutBox(int x0, int x1, int y0, int y1, int z0,
