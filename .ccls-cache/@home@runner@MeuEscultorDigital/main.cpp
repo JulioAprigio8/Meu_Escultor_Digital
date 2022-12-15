@@ -8,7 +8,7 @@ Matrícula: 20220002242
 
 */
 /** 
-@brief Esse projeto desenha um cubo magico colorid
+@brief Esse projeto desenha um cubo magico colorido
 */
 #include <iostream>
 #include <fstream>
